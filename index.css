@@ -1,0 +1,107 @@
+
+#slider {
+	overflow: hidden;
+    margin-left: -4%;
+}
+
+@keyframes slider {
+	0% { left: 0; }
+	30% { left: 0; }
+	33% { left: -100%; }
+	63% { left: -100%; }
+	66% { left: -200%; }
+	95% { left: -200%; }
+	100% { left: 0; }
+}
+#slider figure {
+	width:300%;
+	position: relative;
+	animation: 15s slider infinite;
+}
+
+#slider figure:hover {
+	/*animation-play-state: paused; enable for pause on hover*/
+}
+#slider figure img {
+	width: 33.333333333%;
+	height : 100%;
+	float: left;
+}
+
+#text{
+    margin-left: 1%;
+    position: absolute;
+    margin-top: 19%;
+    padding: 0 33%;
+    z-index: 1;
+    color: white;
+    font-weight: bold;
+}
+
+
+.button{
+    background-color: #dda83f;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-top: -14%;
+    margin-left: 43%;
+}
+
+
+@media (max-width: 740px) {
+    .button {
+      font-size: 16px;
+      padding: 8px 16px;
+    
+    }
+    #slider {
+        margin-left: -14%;
+    margin-right: -2%;
+    }
+
+    #text{
+        padding: 0 33%; 
+    }
+  }
+
+
+@media (max-width: 600px) {
+    .button {
+        font-size: 14px;
+        padding: 8px 16px;
+        margin-left: 30%;
+    }
+    #slider {
+        margin-left: -11%;
+    }
+
+    #text{
+        padding: 0 15%;
+    font-size: 61%; 
+    }
+  }
+  
+  /* Styles for screens smaller than 400px */
+  @media (max-width: 400px) {
+    .button {
+      font-size: 16px;
+      padding: 6px 12px;
+      margin-left: 26%;
+    }
+
+    #slider {
+        margin-left: -14%;
+    }
+
+    #text{
+        font-size: 63%; 
+    }
+  }
