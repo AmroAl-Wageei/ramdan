@@ -1,0 +1,9 @@
+.about_img_cont {
+    display: flex;
+    padding: 2rem 3% 1rem 3%;
+}
+
+.about_img {
+    width: 25rem;
+    border-radius: 3%;
+}
