@@ -49,7 +49,61 @@ body {
   color: #dda83f;
 }
 
-/* ############# Navbar Style */
+/* Navbar Style */
+
+
+
+/* Table Style */
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+th,
+td {
+  width: 14.28%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+th {
+  background-color: #2e8ece;
+  color: #fff;
+}
+
+td {
+  font-weight: normal;
+  background-color: #fff;
+  color: #666;
+  transition: background-color .3s ease;
+}
+
+td:hover {
+  background-color: #f5f5f5;
+}
+
+.weekend {
+  background-color: red;
+}
+
+
+
+/* Table Style */
+
+
+
 
 /* Footer Style */
 
@@ -119,6 +173,23 @@ body {
   /* Footer Responsive */
   /* Footer Responsive */
   /* Footer Responsive */
+
+
+  table {
+    font-size: 12px;
+  }
+  th,
+  td {
+      width: 20%;
+      padding: 5px;
+  }
+
+
+
+  /* Footer Responsive */
+  /* Footer Responsive */
+  /* Footer Responsive */
+
 
   #footer {
     flex-direction: column;
