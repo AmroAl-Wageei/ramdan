@@ -123,6 +123,7 @@ body {
   grid-template-columns: 1fr 2fr;
   margin-top: 3vw;
   margin-bottom: 3vw;
+  gap: 20px;
 }
 
 
