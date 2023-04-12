@@ -16,8 +16,9 @@ body {
 }
 :root {
   --green-color: #2b4743;
-  --white-color: #cedeeb;
+  --white-color: #ffffff;
   --gold-color: #dda83f;
+  --silver-color: #777777;
 }
 /* ############################################################## */
 
@@ -29,7 +30,7 @@ body {
 
 .about_cont {
   font-size: 1.4rem;
-  color: #dda83f;
+  color: var(--gold-color);
   padding-right: 3rem;
   background-image: url("../images/360_F_421755953_LitQ8sAhxJ88bFPVjYTjKI3FBhGqrEP2.jpg");
   background-size: cover;
@@ -55,7 +56,7 @@ body {
   }
   .about_cont {
     padding: 2rem;
-    color: #2b4743;
+    color: var(--green-color);
     font-size: 1rem;
   }
 }
@@ -65,7 +66,7 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     font-size: 1.2rem;
-    color: #2b4743;
+    color: var(--green-color);
     font-size: 1rem;
   }
 }
@@ -98,7 +99,7 @@ body {
 }
 
 .tab:hover {
-  color: #dda83f;
+  color: var(--gold-color);
 }
 
 /* ##################  Navabr ################## */
@@ -143,7 +144,7 @@ body {
 .about_dr {
   height: 100vh;
   width: 100%;
-  background: white;
+  background: var(--white-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -187,7 +188,7 @@ body {
 .all-text p {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  color: #777777;
+  color: var(--silver-color);
   line-height: 30px;
   margin-bottom: 35px;
 }
@@ -196,7 +197,7 @@ body {
   padding: 20px 32px;
   font-size: 16px;
   font-weight: bold;
-  color: #ffffff;
+  color: var(--white-color);
   border: none;
   outline: none;
   box-shadow: 0px 16px 32px 0px rgb(0 0 0 / 6%);
@@ -204,14 +205,14 @@ body {
 }
 .btn_dr button:hover {
   background-color: var(--green-color);
-  color: white;
+  color: var(--white-color);
   transition: 0.3s;
   cursor: pointer;
 }
 
 .btn_dr .btn2 {
   background-color: #111111;
-  color: white;
+  color: var(--white-color);
 }
 
 @media screen and (max-width: 1250px) {
@@ -263,7 +264,6 @@ body {
 }
 .heading span::after {
   content: "";
-  background: #74a7a1;
   width: 200px;
   height: 5px;
   position: absolute;
@@ -563,7 +563,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .text_header_book {
