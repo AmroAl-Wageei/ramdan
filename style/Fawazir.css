@@ -7,6 +7,13 @@ section {
     max-width: 600px;
   }
   
+  #quiz {
+    text-align: center;
+    color: #2b4743;
+    font-size: 2.2rem;
+    margin-bottom: 2vw;
+  }
+
   form {
     margin: 1rem auto;
   }
@@ -48,11 +55,47 @@ section {
 
   .choices p {
     text-align: right;
+    margin-right: 1vw;
   }
 
   #btnSubmit {
     background-color: #2b4743;
     color: aliceblue;
+    font-weight: bold;
     width: 10vw;
     height: 3vw;
+  }
+
+  #btnSubmit:hover {
+    background-image: url('../images/pngtree-geometric-green-gold-abstract-brush-background-image_757941.jpg');
+    color: #2b4743;
+  }
+
+
+
+
+
+  /* Responsive */
+  /* Responsive */
+  /* Responsive */
+  /* Responsive */
+
+
+
+  
+  @media (max-width: 768px) {
+    section {
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .choices {
+      grid-template-columns: 4fr 1fr;
+    }
+    
+    #btnSubmit {
+      width: 20vw;
+      height: 6vw;
+    }
   }
