@@ -555,15 +555,16 @@ body {
 /* ################################################################ */
 
 .header {
-  min-height: 70vh;
+  min-height: 90vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url("../images/ramadanContact.jpg");
+    url("../images/AboutUsHeader.avif");
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .text_header_book {
