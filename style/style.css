@@ -1,17 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Manrope", sans-serif;
+}
 body {
-  margin: 0px;
+  background-color: var(--body-color);
+}
+:root {
+  --green-color: #2b4743;
+  --white-color: #cedeeb;
+  --gold-color: #dda83f;
   overflow-x: hidden;
 
 }
 
-
 /* Navbar Style */
-
 
 #navbar {
   display: flex;
   justify-content: space-around;
-  background-color: #2b4743 ;
+  background-color: var(--green-color);
 }
 
 #logo {
@@ -28,7 +41,7 @@ body {
 .tab {
   text-decoration: none;
   margin-left: 2.5vw;
-  color: #cedeeb;
+  color: var(--white-color);
   font-size: 1.2em;
 }
 
@@ -36,18 +49,14 @@ body {
   color: #dda83f;
 }
 
-
-
-
-
-
+/* ############# Navbar Style */
 
 /* Footer Style */
 
 #footer {
   display: flex;
   justify-content: space-around;
-  background-color: #2b4743 ;
+  background-color: var(--green-color);
 }
 
 #logoFooter {
@@ -56,7 +65,7 @@ body {
 }
 
 .footerContent {
-  color: #cedeeb;
+  color: var(--white-color);
   margin-top: 3.5vw;
 }
 
@@ -70,23 +79,19 @@ body {
 
 #FooterNavTabs ul a {
   text-decoration: none;
-  color: #cedeeb;
+  color: var(--white-color);
 }
 
 #FooterNavTabs ul {
   list-style-type: none;
 }
 
-
-
+/* Footer Style */
 
 /* Responsive  */
 
-
-
 /* For screens up to 767px */
 @media only screen and (max-width: 767px) {
-
   /* Navbar Responsive */
   /* Navbar Responsive */
   /* Navbar Responsive */
@@ -110,11 +115,6 @@ body {
     max-width: 20vw;
     height: auto;
   }
-
-
-
-
-
 
   /* Footer Responsive */
   /* Footer Responsive */
@@ -147,7 +147,6 @@ body {
 
 /* For screens between 768px and 1023px */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-
   /* Navbar Responsive */
   /* Navbar Responsive */
   /* Navbar Responsive */
@@ -171,8 +170,6 @@ body {
     max-width: 10vw;
     height: auto;
   }
-
-
 
   /* Footer Responsive */
   /* Footer Responsive */
@@ -205,7 +202,6 @@ body {
 
 /* For screens 1024px and above */
 @media only screen and (min-width: 1024px) {
-
   /* Navbar Responsive */
   /* Navbar Responsive */
   /* Navbar Responsive */
@@ -227,10 +223,6 @@ body {
     height: 6vw;
     margin-bottom: 0;
   }
-
-
-
-  
 
   /* Footer Responsive */
   /* Footer Responsive */
@@ -257,6 +249,7 @@ body {
 }
 
 
+/* add */
 /* slider style */
 
 
