@@ -192,18 +192,18 @@ body {
   margin-bottom: 35px;
 }
 .btn_dr button {
-  background: white;
+  background: #407971;
   padding: 20px 32px;
   font-size: 16px;
   font-weight: bold;
-  color: #111111;
+  color: #ffffff;
   border: none;
   outline: none;
   box-shadow: 0px 16px 32px 0px rgb(0 0 0 / 6%);
   margin-right: 20px;
 }
 .btn_dr button:hover {
-  background-color: #608ea5;
+  background-color: var(--green-color);
   color: white;
   transition: 0.3s;
   cursor: pointer;
@@ -551,3 +551,62 @@ body {
   }
 }
 /* Responsive navbar & footer */
+
+/* ################################################################ */
+
+.header {
+  min-height: 70vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("../images/ramadanContact.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.text_header_book {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text_header_book h1 {
+  font-size: 62px;
+}
+.text_header_book h1 span {
+  color: #74a7a1;
+}
+.text_header_book p span {
+  color: #74a7a1;
+  font-weight: 600;
+}
+.text_header_book p {
+  margin: 10px 0 40px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.actionnn_btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  font-weight: 600;
+  background: transparent;
+  /* position: relative; */
+  cursor: pointer;
+}
+.actionnn_btn:hover {
+  background-color: #74a7a1;
+  border: 1px solid #74a7a1;
+  transition: 1s;
+}
+
+/* ################################################################ */
