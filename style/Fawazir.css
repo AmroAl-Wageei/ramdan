@@ -1,0 +1,58 @@
+section {
+    background-color: #ffd900a0;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 600px;
+  }
+  
+  form {
+    margin: 1rem auto;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2b4743;
+  }
+  
+  input[type="radio"] {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    border: 0.2rem solid #2b4743 ;
+    background-color: #ffd900a0;
+  }
+  
+  input[type="radio"]:checked::before {
+    background-color: #643f00;
+  }
+  
+  hr {
+    border: none;
+    border-top: 0.1rem solid #643f00;
+    margin: 2rem auto;
+    width: 80%;
+  }
+
+  .choices {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    align-items: center;
+  }
+
+  .choices p {
+    text-align: right;
+  }
+
+  #btnSubmit {
+    background-color: #2b4743;
+    color: aliceblue;
+    width: 10vw;
+    height: 3vw;
+  }
