@@ -1,0 +1,258 @@
+body {
+  margin: 0px;
+}
+
+
+/* Navbar Style */
+
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2b4743 ;
+}
+
+#logo {
+  max-width: 6vw;
+  height: 6vw;
+}
+
+#navTabs {
+  line-height: 5;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab {
+  text-decoration: none;
+  margin-left: 2.5vw;
+  color: #cedeeb;
+  font-size: 1.2em;
+}
+
+.tab:hover {
+  color: #dda83f;
+}
+
+
+
+
+
+
+
+/* Footer Style */
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2b4743 ;
+}
+
+#logoFooter {
+  max-width: 16vw;
+  height: 16vw;
+}
+
+.footerContent {
+  color: #cedeeb;
+  margin-top: 3.5vw;
+}
+
+#Copyright {
+  margin-top: 7vw;
+}
+
+#FooterNavTabs ul li {
+  margin-bottom: 1vw;
+}
+
+#FooterNavTabs ul a {
+  text-decoration: none;
+  color: #cedeeb;
+}
+
+#FooterNavTabs ul {
+  list-style-type: none;
+}
+
+
+
+
+/* Responsive  */
+
+
+
+/* For screens up to 767px */
+@media only screen and (max-width: 767px) {
+
+  /* Navbar Responsive */
+  /* Navbar Responsive */
+  /* Navbar Responsive */
+
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navTabs {
+    margin-top: 2em;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tab {
+    margin: -1em 0;
+  }
+
+  #logo {
+    max-width: 20vw;
+    height: auto;
+  }
+
+
+
+
+
+
+  /* Footer Responsive */
+  /* Footer Responsive */
+  /* Footer Responsive */
+
+  #footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #logoFooter {
+    max-width: 40vw;
+    height: auto;
+    margin-bottom: 1em;
+  }
+
+  .footerContent {
+    margin-top: 2em;
+    text-align: center;
+  }
+
+  #FooterNavTabs ul li {
+    margin: 2em 0;
+  }
+
+  #FooterNavTabs {
+    margin-right: 7vw;
+  }
+}
+
+/* For screens between 768px and 1023px */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  /* Navbar Responsive */
+  /* Navbar Responsive */
+  /* Navbar Responsive */
+
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navTabs {
+    margin-top: 2em;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tab {
+    margin: -1em 0;
+  }
+
+  #logo {
+    max-width: 10vw;
+    height: auto;
+  }
+
+
+
+  /* Footer Responsive */
+  /* Footer Responsive */
+  /* Footer Responsive */
+
+  #footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #logoFooter {
+    max-width: 20vw;
+    height: auto;
+    margin-bottom: 1em;
+  }
+
+  .footerContent {
+    margin-top: 2em;
+    text-align: center;
+  }
+
+  #FooterNavTabs ul li {
+    margin: 2em 0;
+  }
+
+  #FooterNavTabs {
+    margin-right: 7vw;
+  }
+}
+
+/* For screens 1024px and above */
+@media only screen and (min-width: 1024px) {
+
+  /* Navbar Responsive */
+  /* Navbar Responsive */
+  /* Navbar Responsive */
+
+  #navbar {
+    justify-content: space-around;
+  }
+
+  #navTabs {
+    flex-direction: row;
+  }
+
+  .tab {
+    margin: 0 1em;
+  }
+
+  #logo {
+    max-width: 6vw;
+    height: 6vw;
+    margin-bottom: 0;
+  }
+
+
+
+  
+
+  /* Footer Responsive */
+  /* Footer Responsive */
+  /* Footer Responsive */
+
+  #footer {
+    justify-content: space-around;
+  }
+
+  #logoFooter {
+    max-width: 16vw;
+    height: 16vw;
+    margin-bottom: 0;
+  }
+
+  .footerContent {
+    margin-top: 3.5vw;
+    text-align: left;
+  }
+
+  #FooterNavTabs ul li {
+    margin-bottom: 1vw;
+  }
+}
+
+
+
